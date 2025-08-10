@@ -1,0 +1,3 @@
+pytest       # For testing
+requests     # For HTTP requests
+flask        # Example web framework
