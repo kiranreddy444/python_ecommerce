@@ -22,7 +22,8 @@ jobs:
       - name: Package application
         run: |
           mkdir staging
-          cp -r your_package_or_script.py staging/  # Replace with your actual file or folder
+          cp manage.py staging/
+          cp -r ecommerce/ staging/
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4.6.2
